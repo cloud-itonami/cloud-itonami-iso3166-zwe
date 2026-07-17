@@ -1,0 +1,14 @@
+;; data/culture-tx.edn — DataScript tx-data derived from src/culture/facts.cljc
+;; `culture.facts/catalog` (ADR-2607171400 addendum 2, Wave 1 country-level).
+;; Same shape across every cloud-itonami-iso3166-* sibling. Do not hand-edit;
+;; regenerate from the catalog.
+
+[
+#:culture{:url "https://en.wikipedia.org/wiki/Ugali", :id "zwe.dish.sadza", :kind :dish, :name-local "Isitshwala", :country "ZWE", :retrieved-at "2026-07-17", :summary "Cooked maize meal, called sadza in Shona or isitshwala in isiNdebele, that is the staple food in Zimbabwe.", :name "Sadza", :url-provenance :wikipedia-en}
+#:culture{:id "zwe.dish.mopane-worm", :name "Mopane worm", :country "ZWE", :kind :dish, :summary "Edible caterpillar of the moth Gonimbrasia belina, consumed as food across southern Africa including Zimbabwe, where it is known in Shona as madora, masodya or mashonja.", :url "https://en.wikipedia.org/wiki/Gonimbrasia_belina", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "zwe.dish.delele", :name "Delele", :country "ZWE", :kind :dish, :summary "Zimbabwean, Zambian, north-eastern Botswanan and Northern South African dish made from a local plant of the same name.", :url "https://en.wikipedia.org/wiki/Delele", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "zwe.beverage.chibuku", :name "Chibuku", :country "ZWE", :kind :beverage, :summary "Commercial sorghum beer based on traditional Umqombothi homemade African beers; originated in Zambia and is produced in Zimbabwe by Delta Beverages among other African countries.", :url "https://en.wikipedia.org/wiki/Chibuku_Shake_Shake", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "zwe.craft.zimbabwe-bird", :name "Zimbabwe Bird", :country "ZWE", :kind :craft, :summary "Stone-carved soapstone bird sculptures recovered from the medieval city of Great Zimbabwe; the Zimbabwe Bird is the national emblem of Zimbabwe, appearing on the national flag and coat of arms.", :url "https://en.wikipedia.org/wiki/Zimbabwe_Bird", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "zwe.craft.shona-sculpture", :name "Shona sculpture", :country "ZWE", :kind :craft, :summary "Sculpture, and in particular stone sculpture, is an art for which Zimbabwe is well known around the world.", :url "https://en.wikipedia.org/wiki/Sculpture_of_Zimbabwe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+#:culture{:id "zwe.heritage.great-zimbabwe", :name "Great Zimbabwe", :country "ZWE", :kind :heritage, :summary "Ruined medieval city recognised as a UNESCO World Heritage Site, designated in 1986 under the official name Great Zimbabwe National Monument.", :url "https://en.wikipedia.org/wiki/Great_Zimbabwe", :url-provenance :wikipedia-en, :retrieved-at "2026-07-17"}
+]
