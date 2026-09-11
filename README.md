@@ -114,7 +114,7 @@ as every `cloud-itonami-iso3166-*` sibling in this fleet:
   currency's current status is confirmed only via a ZimLII legislation-
   listing citation (a February 2026 Reserve Bank of Zimbabwe notice
   naming new ZiG banknotes), not RBZ's own primary text.
-- `src/statute/facts.cljc` -- general-law catalog: the Companies and
+- `src/statute/facts.cljk` -- general-law catalog: the Companies and
   Other Business Entities Act, 2019 [Chapter 24:31] (which itself
   repealed the old Companies Act [Chapter 24:03]); the Labour Act
   [Chapter 28:01]; and the Income Tax Act [Chapter 23:06]. Titles/
@@ -153,7 +153,7 @@ Alongside the market-entry / statute catalogs, this repo carries a
 `com-junkawasaki/root`) — national dishes, protected products, beverages,
 crafts, festivals and heritage sites for Zimbabwe:
 
-- `src/culture/facts.cljc` — the catalog, source of truth (keyed by
+- `src/culture/facts.cljk` — the catalog, source of truth (keyed by
   uppercase ISO3, mirroring `statute.facts`).
 - `schema/culture.edn` — DataScript schema.
 - `data/culture-tx.edn` — derived DataScript tx-data (regenerated from
